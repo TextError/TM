@@ -17,6 +17,7 @@ const User = require('../../models/User');
 //@desc   Tests users route
 //@access Public
 router.get('/test', (req, res) => res.json({msg: 'User works'}));
+router.get('/register', (req,res) => res.json( {msg: 'register works' }));
 
 //@route  Get api/users/register
 //@desc   Register user
